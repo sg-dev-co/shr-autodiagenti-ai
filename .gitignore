@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ignore etc
+/server/storage/uploads/**
+/server/storage/tmp/**
+/server/storage/vectorstore/faiss_db/**
+/server/storage/db/**
+.DS_Store
+
+#/server/storage/tmp/analyzer-output/**
