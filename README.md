@@ -496,18 +496,6 @@ Response:
                        └─────────────────┘
 ```
 
-### AI 워크플로우 (LangGraph)
-
-```mermaid
-graph TD
-    A[Parser Agent] --> B[RAG Indexing]
-    B --> C[Recursive Call Tree]
-    C --> D[Code Analysis]
-    D --> E[Call Tree Summarizer]
-    E --> F[Sequence Diagram Generator]
-    F --> G[Complete]
-```
-
 ### 기술 스택
 
 #### Frontend
