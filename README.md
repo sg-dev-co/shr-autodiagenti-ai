@@ -8,6 +8,13 @@
 [![LangChain](https://img.shields.io/badge/LangChain-0.3.19-yellow.svg)](https://langchain.com)
 [![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
+## 🌐 언어 선택 / Language Selection
+
+- **한국어** (current page)
+- [English](README_EN.md)
+
+---
+
 ## 📋 목차
 
 - [프로젝트 개요](#-프로젝트-개요)
@@ -128,9 +135,6 @@ touch app/.env
 ```env
 # API 서버 URL 설정 (필수)
 AUTODIAGENTI_API_BASE_URL=http://localhost:8002/api/v1/autodiagenti
-
-# Mermaid 자산 URL 설정 (필수)
-AUTODIAGENTI_API_ASSETS_JS_URL=http://localhost:8002/assets
 ```
 
 ### 6. 서버 실행
