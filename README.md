@@ -156,6 +156,32 @@ streamlit run app/main.py --server.port 8501
 - **FastAPI API**: http://localhost:8002
 - **API 문서**: http://localhost:8002/docs
 
+## ⚡ 빠른 시작
+
+### 1. 의존성 설치
+```bash
+pip install -r requirements.txt
+```
+
+### 2. 애플리케이션 실행
+```bash
+python run_app.py
+```
+
+### 3. 샘플 데이터로 테스트
+1. 브라우저에서 `http://localhost:8501` 접속
+2. **샘플 파일 다운로드**: `data/sample_project-master.zip` 파일을 다운로드
+3. "프로젝트 업로드" 버튼 클릭
+4. 다운로드한 `sample_project-master.zip` 파일을 업로드
+5. "분석 시작" 버튼을 클릭하여 전체 워크플로우 테스트
+
+### 4. 샘플 프로젝트 구조
+샘플 프로젝트는 다음을 포함합니다:
+- `@RestController`와 `@Service` 어노테이션이 있는 Spring Boot 애플리케이션
+- 메서드 호출이 있는 여러 서비스 레이어
+- 데이터베이스 리포지토리 패턴
+- 분석 워크플로우 테스트에 완벽한 구조
+
 ## 📖 사용법
 
 ### 1. 기본 사용법
