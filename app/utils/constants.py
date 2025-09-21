@@ -20,7 +20,7 @@ class LLMModel(Enum):
 
     @classmethod
     def get_by_model_name(cls, model_name):
-        """모델델명으로 모델을 찾는 함수"""
+        """모델명으로 모델을 찾는 함수"""
         return next((member for member in cls if member.model_name == model_name), None)
 
     @classmethod
