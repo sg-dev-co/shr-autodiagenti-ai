@@ -714,4 +714,4 @@ A: 현재는 Azure OpenAI만 지원합니다. 향후 다른 LLM 제공업체 지
 
 **AutoDiagenti AI** - Java Spring 프로젝트 분석 도구 🚀
 
-*Made with ❤️ by dev.sg.comp@gmail.com, krsoogom@sk.com*
+*Made with by dev.sg.comp@gmail.com, krsoogom@sk.com*
