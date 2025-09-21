@@ -1,4 +1,4 @@
-# AutoDiagenti AI v2.0
+# AutoDiagenti AI
 
 > AI-powered tool for automatically analyzing and visualizing API flows in Java Spring projects
 
